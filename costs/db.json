@@ -8,8 +8,15 @@
         "id": "1",
         "name": "Infra"
       },
-      "cost": 0,
-      "services": []
+      "cost": 100,
+      "services": [
+        {
+          "name": "Adicionando serviço",
+          "cost": "100",
+          "description": "faz algo aí",
+          "id": "5c995c99-b353-49c6-ae13-6b607acef133"
+        }
+      ]
     }
   ],
   "categories": [
