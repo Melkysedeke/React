@@ -3,7 +3,7 @@
     {
       "id": "cc89",
       "name": "Testando atualizado",
-      "budget": "15300",
+      "budget": "15000",
       "category": {
         "id": "1",
         "name": "Infra"
