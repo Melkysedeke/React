@@ -2,8 +2,8 @@
   "projects": [
     {
       "id": "cc89",
-      "name": "Testando 1",
-      "budget": "10000",
+      "name": "Testando atualizado",
+      "budget": "15300",
       "category": {
         "id": "1",
         "name": "Infra"
