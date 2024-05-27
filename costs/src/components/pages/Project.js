@@ -60,11 +60,14 @@ function Project(){
         .then((resp)=>resp.json())
         .then((data)=>{
             setShowServiceForm(false)
+            setMessage('Serviço criado com sucesso!')
+            setType('success')
         })
         .catch((err)=>console.log(err))
     }
 
     function removeService(id, cost){
+        setMessage('')
         const servicesUpdated = project.services.filter((service)=>service.id!==id)
         const projectUpdated = project
         projectUpdated.services = servicesUpdated
@@ -81,6 +84,7 @@ function Project(){
            setProject(projectUpdated)
            setServices(servicesUpdated)
            setMessage('Serviço removido com sucesso!')
+           setType('success')
         })
         .catch((err)=>console.log(err))
     }
