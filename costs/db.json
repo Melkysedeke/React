@@ -8,27 +8,8 @@
         "id": "1",
         "name": "Infra"
       },
-      "cost": 500,
-      "services": [
-        {
-          "name": "Adicionando serviço",
-          "cost": "100",
-          "description": "faz algo aí",
-          "id": "5c995c99-b353-49c6-ae13-6b607acef133"
-        },
-        {
-          "name": "Testando serviço",
-          "cost": "100",
-          "description": "faz algo aí",
-          "id": "caa10d9f-5bb8-48f2-af7c-1dfae2d348e0"
-        },
-        {
-          "name": "Testando serviço 2",
-          "cost": "300",
-          "description": "Testando para ver se ao criar serviço o formulário de criar serviço fecha",
-          "id": "a946a3c9-d970-44e3-bb3a-8fa8b2583112"
-        }
-      ]
+      "cost": 0,
+      "services": []
     },
     {
       "id": "f9a1",
